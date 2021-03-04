@@ -9,7 +9,7 @@
       chdir: /opt/kubernetes
 
   - name: create tag to image
-    command: docker tag simple-devops-image 1vankayala/simple-devops-image
+    command: docker tag simple-devops-image ameintu/simple-devops-image
 
   - name: push image on to dockerhub
     command: docker push ameintu/simple-devops-image
